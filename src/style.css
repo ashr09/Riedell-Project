@@ -8,19 +8,24 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  background-color: #f7e2e2;
 }
 
 h1 h2 h3 {
   margin: 0;
+  color: #1a132f;
 }
 
 h1 {
   font-size: 65px;
+  opacity: 0.9;
+  text-align: center;
 }
 
 h2 {
   font-size: 40px;
   opacity: 0.7;
+  text-align: center;
 }
 
 h3 {
@@ -43,7 +48,7 @@ p {
 .project-links {
   display: flex;
   justify-content: center;
-  background: var(--primary-color);
+  background: #5b7db1;
   box-shadow: var(--box-shadow);
   color: white;
   border-radius: 4px;
@@ -57,9 +62,13 @@ p {
   color: white;
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+.gitHubLink {
+  text-decoration: var(--text-decoration);
+  color: white;
+}
+
+.gitHubLink:hover {
+  text-decoration: var(--text-decoration);
   color: white;
 }
 
@@ -69,8 +78,21 @@ p {
   border-radius: 100%;
 }
 
+.header-photo {
+  border-radius: 10px;
+  max-width: 63%;
+}
+
 .row {
   display: flex;
+}
+
+.btn btn-primary {
+  background-color: #5b7db1 !important;
+}
+
+.card {
+  border-color: #5b7db1;
 }
 
 .contact-footer {
@@ -79,8 +101,10 @@ p {
 
 .footer {
   text-align: center;
-  color: red;
+  color: white;
   padding: 20px;
   border-radius: 5px;
-  background-color: black;
+  opacity: 0.5;
+  background-color: #61a4bc;
+  background: semi-transparent;
 }

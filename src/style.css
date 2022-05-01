@@ -40,28 +40,20 @@ p {
   line-height: 1.5;
 }
 
-.navigation-links {
+.project-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-transform: capitalize;
-  text-decoration: var(--text-decoration);
-}
-
-.navigation-links:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.about-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  text-decoration: var(--text-decoration);
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.project-links:hover {
+  text-decoration: none;
   color: white;
 }
 
@@ -72,8 +64,9 @@ p {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
+  border-radius: 100%;
 }
 
 .row {
@@ -82,4 +75,12 @@ p {
 
 .contact-footer {
   text-align: center;
+}
+
+.footer {
+  text-align: center;
+  color: red;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: black;
 }

@@ -1,4 +1,8 @@
 :root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-decoration: none;
 }
 
 body {
@@ -6,10 +10,65 @@ body {
   max-width: 800px;
 }
 
-h1 h2 h3 .about-link {
+h1 h2 h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  background: none;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  text-decoration: var(--text-decoration);
+}
+
+.navigation-links:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.about-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .img-fluid {
@@ -19,4 +78,8 @@ h1 h2 h3 .about-link {
 
 .row {
   display: flex;
+}
+
+.contact-footer {
+  text-align: center;
 }

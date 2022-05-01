@@ -5,3 +5,18 @@ body {
   margin: 60px auto;
   max-width: 800px;
 }
+
+h1 h2 h3 .about-link {
+}
+
+.contact-link {
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}

@@ -72,15 +72,27 @@ p {
   color: white;
 }
 
-.img-fluid {
+.header-photo {
+  border-radius: 10px;
+  max-width: 63%;
+}
+
+.project-photo {
   max-width: auto;
   height: auto;
   border-radius: 100%;
 }
 
-.header-photo {
-  border-radius: 10px;
-  max-width: 63%;
+@media (max-width: 600px) {
+  .header-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .project-photo {
+    display: none;
+  }
 }
 
 .row {

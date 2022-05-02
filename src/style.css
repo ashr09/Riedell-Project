@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #f7e2e2;
   --secondary-color: #f5f2fe;
+  --link-background: #5b7db1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --text-decoration: none;
 }
@@ -76,7 +77,7 @@ p {
 .project-links {
   display: flex;
   justify-content: center;
-  background: #5b7db1;
+  background: var(--link-background);
   box-shadow: var(--box-shadow);
   color: white;
   border-radius: 4px;
@@ -137,10 +138,6 @@ p {
   display: flex;
 }
 
-.btn btn-primary {
-  background-color: #5b7db1 !important;
-}
-
 .card {
   border-color: #5b7db1;
 }
@@ -151,6 +148,12 @@ p {
 
 .blockquote-footer {
   font-family: "Libre Bodoni", serif;
+}
+
+.social-links a {
+  padding: 8px;
+  font-size: 20px;
+  color: white;
 }
 
 .footer {

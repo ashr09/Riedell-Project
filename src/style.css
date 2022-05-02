@@ -14,7 +14,7 @@
 }
 
 body {
-  margin: 60px auto;
+  margin: 90px auto;
   max-width: 800px;
   background-color: #f7e2e2;
 }
@@ -29,6 +29,7 @@ h1 {
   opacity: 0.9;
   text-align: center;
   font-family: "Libre Bodoni", serif;
+  line-height: 1.5;
 }
 
 h2 {
@@ -36,6 +37,7 @@ h2 {
   opacity: 0.7;
   text-align: center;
   font-family: "Libre Bodoni", serif;
+  line-height: 1.5;
 }
 
 h3 {
@@ -57,6 +59,18 @@ p {
   line-height: 1.5;
   font-family: "DM Sans", sans-serif;
   opacity: 0.8;
+}
+
+.homepage-hero {
+  padding: 80px 20px;
+  background: white;
+  max-width: 1000px;
+  border-radius: 4px;
+}
+
+.check-work {
+  text-align: center;
+  font-size: 20px;
 }
 
 .project-links {
@@ -89,7 +103,7 @@ p {
 
 .header-photo {
   border-radius: 10px;
-  max-width: 63%;
+  max-width: 79%;
 }
 
 .project-photo {
@@ -107,6 +121,15 @@ p {
   }
   .project-photo {
     display: none;
+  }
+}
+
+@media (max-width: 290px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
   }
 }
 
